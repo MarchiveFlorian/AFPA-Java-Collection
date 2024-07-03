@@ -31,6 +31,7 @@ public class HashMapApp {
         System.out.println("La valeur en paramètre est présente: " + capitalCities.containsValue("Londres"));
 
         // TODO Ajoutez une paire clé/valeur à votre HashMap
+        System.out.println("Ajout d'une nouvelle paire clé/valeur");
         capitalCities.put("Belgique", "Bruxelles");
 
         // TODO Utilisez une méthode pour trouver le nombre de paires (la longueur de
@@ -46,8 +47,7 @@ public class HashMapApp {
 
         System.out.println(capitalCities.keySet());
 
-        // TODO Affichez toutes les valeurs de votre HashMap (avec une boucle for each &
-        // avec une méthode de HashMap)
+        // TODO Affichez toutes les valeurs de votre HashMap (avec une boucle for each & avec une méthode de HashMap)
         System.out.println("Voici les valeurs de notre HashMap: ");
         for (String i : capitalCities.values()) {
             System.out.println(i);
@@ -55,8 +55,7 @@ public class HashMapApp {
 
         System.out.println(capitalCities.values());
 
-        // TODO Affichez toutes les clés/valeurs de votre HashMap (avec une boucle for
-        // each & avec une méthode de HashMap)
+        // TODO Affichez toutes les clés/valeurs de votre HashMap (avec une boucle for each & avec une méthode de HashMap)
         System.out.println("Voici les paires de notre HashMap: ");
         for (String i : capitalCities.keySet()) {
             System.out.println("key: " + i + " value: " + capitalCities.get(i));
@@ -65,12 +64,14 @@ public class HashMapApp {
         System.out.println(capitalCities.entrySet());
 
         // TODO Supprimez une de vos paires
+        System.out.println("Suppression d'une de nos paires");
         capitalCities.remove("Espagne");
 
         // TODO Vérifiez si votre HashMap est vide
         System.out.println("La Hashmap est vide? :" + capitalCities.isEmpty());
 
         // TODO Supprimez tous les éléments de votre HashMap
+        System.out.println("Suppression de tous les élements de notre HashMap");
         capitalCities.clear();
 
         // TODO Refaites la vérification
