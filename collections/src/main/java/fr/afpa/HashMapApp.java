@@ -6,7 +6,7 @@ import java.util.HashMap;
 public class HashMapApp {
     public static void main(String[] args) {
 
-        // Ressources au choix :
+        // Ressources :
         // https://www.youtube.com/watch?v=I9aBP0xm-lE
         // https://www.w3schools.com/java/java_hashmap.asp
         // https://www.jmdoudoux.fr/java/dej/chap-collections.htm#collections-5
