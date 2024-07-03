@@ -38,8 +38,7 @@ public class HashMapApp {
         // votre HashMap) et affichez la en console
         System.out.println("Nombre de paires clé/valeur: " + capitalCities.size());
 
-        // TODO Affichez toutes les clés de votre HashMap (avec une boucle for each &
-        // avec une méthode de HashMap)
+        // TODO Affichez toutes les clés de votre HashMap (avec une boucle for each & avec une méthode de HashMap)
         System.out.println("Voici les clés de notre HashMap: ");
         for (String i : capitalCities.keySet()) {
             System.out.println(i);

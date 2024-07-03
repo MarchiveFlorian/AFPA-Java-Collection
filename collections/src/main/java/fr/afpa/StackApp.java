@@ -18,12 +18,10 @@ public class StackApp {
         stack.push("Green");
         stack.push("Blue");
         stack.push("Yellow");
-        stack.push("Orange");
-        // stack.addLast("White")
+        stack.push("Orange");     
 
         // TODO Ajoutez une valeur au début de la stack
         stack.addFirst("Black");
-        // stack.offerFirst();
 
         // TODO Affichez votre stack
         System.out.println("Voici les éléments de notre Stack: " + stack);
@@ -31,11 +29,9 @@ public class StackApp {
         // TODO Supprimez l'élément du dessus de votre stack
         System.out.println("Suppression de l'élément du dessus");
         stack.pop();
-        // stack.removeLast();
-
+        
         // TODO Affichez l'élément du dessus de votre stack
         System.out.println("Affichage de l'élément du dessus: " + stack.peek());
-        // System.out.println(stack.getLast());
 
         // TODO Supprimez le premier élément de votre stack
         System.out.println("Suppression du premier élément");
@@ -44,10 +40,8 @@ public class StackApp {
         // TODO Affichez le premier élément de votre stack
         System.out.println("Affichage du premier élément: " + stack.getFirst());
        
-        // TODO Cherchez et affichez la position d'un de vos éléments (la valeur
-        // indiquera la position de l'élément par rapport au dessus de la stack)
+        // TODO Cherchez et affichez la position d'un de vos éléments (la valeur indiquera la position de l'élément par rapport au dessus de la stack)
         System.out.println("L'élément est en " + stack.search("Blue") + "eme position par rapport au dessus de la Stack");   
-
 
         // TODO Vérifiez si votre stack est vide 
         System.out.println("La Stack est vide?: " + stack.isEmpty());
